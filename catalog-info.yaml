@@ -4,14 +4,14 @@ metadata:
   name: user-service
   description: Stellarus user management microservice
   annotations:
-    github.com/project-slug: YOUR_GITHUB_USERNAME/stellarus-user-service
+    github.com/project-slug: badal1443/stellarus-user-service
     backstage.io/techdocs-ref: dir:.
   tags:
     - nodejs
     - microservice
     - aks
   links:
-    - url: https://github.com/YOUR_GITHUB_USERNAME/stellarus-user-service
+    - url: https://github.com/badal1443/stellarus-user-service
       title: GitHub
       icon: github
 spec:
