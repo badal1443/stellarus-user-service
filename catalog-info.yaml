@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: user-service
+  description: Stellarus user management microservice
+  annotations:
+    github.com/project-slug: YOUR_GITHUB_USERNAME/stellarus-user-service
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - nodejs
+    - microservice
+    - aks
+  links:
+    - url: https://github.com/YOUR_GITHUB_USERNAME/stellarus-user-service
+      title: GitHub
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: platform-foundation
+  system: interstellar-platform
